@@ -1,0 +1,11 @@
+[package]
+name = "taiz-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+swc_core = { version = "0.92", features = ["ecma_parser", "ecma_transforms", "ecma_minifier", "ecma_visit", "ecma_codegen", "__common", "ecma_ast"] }
+swc_common = "0.33.26"
+swc_ecma_parser = "0.144"
+swc_ecma_minifier = "0.194.9"
+clap = { version = "4.5", features = ["derive"] }

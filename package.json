@@ -1,0 +1,29 @@
+{
+  "name": "taiz-bundler",
+  "version": "1.0.0",
+  "description": "A fastest yet efficient JS based runtime which bundles your app in Micro-seconds to run in browser, Deno or Node.js.",
+  "main": "y",
+  "scripts": {
+    "test": "n"
+  },
+  "repository": {
+    "type": "git",
+    "url": "taiz-runtime"
+  },
+  "keywords": [
+    "taiz",
+    "runtime",
+    "js-runtime",
+    "fast-runtime",
+    "taiz-bundler"
+  ],
+  "author": "Faiz Farhan",
+  "license": "MIT",
+  "devDependencies": {
+    "terser": "^5.39.0"
+  },
+  "dependencies": {
+    "esbuild": "^0.25.1",
+    "taiz-bundler": "^1.0.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "taiz-bundler",
+  "version": "0.1.4",  
+  "description": "The fastest JS runtime bundler - write once, run anywhere",
+  "bin": {
+    "taiz-bundler": "./bin/cli-rust"
+  },
+  "keywords": ["bundler", "javascript", "runtime", "fast"],
+  "author": "Muhammad Faiz Khan",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ]
+}

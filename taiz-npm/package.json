@@ -1,6 +1,6 @@
 {
   "name": "taiz-bundler",
-  "version": "0.1.4",  
+  "version": "0.1.5",  
   "description": "The fastest JS runtime bundler - write once, run anywhere",
   "bin": {
     "taiz-bundler": "./bin/cli-rust"
@@ -12,5 +12,13 @@
     "bin/",
     "README.md",
     "LICENSE"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamfaizfarhan/taiz-bundler.git"
+  },
+  "homepage": "https://github.com/iamfaizfarhan/taiz-bundler",
+  "bugs": {
+    "url": "https://github.com/iamfaizfarhan/taiz-bundler/issues"
+  }
 }
